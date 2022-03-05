@@ -1,0 +1,39 @@
+{
+  "name": "react-native-cryptocurrency-icons",
+  "version": "1.0.0",
+  "description": "Cryptocurrency icons for React Native",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "svgr": "svgr node_modules/cryptocurrency-icons/svg/color/",
+    "test": "eslint --ext .tsx,.ts lib/",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IngyuTae/react-native-cryptocurrency-icons.git"
+  },
+  "keywords": [],
+  "author": "Ingyu Tae <me@ingyu.kr>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/IngyuTae/react-native-cryptocurrency-icons/issues"
+  },
+  "homepage": "https://github.com/IngyuTae/react-native-cryptocurrency-icons#readme",
+  "devDependencies": {
+    "@react-native-community/eslint-config": "^3.0.1",
+    "@svgr/cli": "^6.2.1",
+    "@tsconfig/react-native": "^1.0.4",
+    "@types/react": "^17.0.39",
+    "@types/react-native": "^0.67.2",
+    "cryptocurrency-icons": "^0.18.0",
+    "eslint": "7.32.0",
+    "prettier": "^2.5.1",
+    "typescript": "~4.3.5"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-svg": "*"
+  }
+}
